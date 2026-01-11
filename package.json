@@ -1,18 +1,26 @@
 {
   "name": "mini-mcp-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "A lightweight **Model Context Protocol (MCP) server** built with **TypeScript + FastMCP**, providing common utility tools such as weather lookup, calculator, currency conversion, time zone handling, and unit conversion.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "npm run build && npx @modelcontextprotocol/inspector node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastmcp": "^3.26.8"
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "fastmcp": "^3.26.8",
+    "zod": "^4.3.5"
   },
   "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/dotenv": "^6.1.1",
     "@types/node": "^25.0.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
