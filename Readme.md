@@ -537,15 +537,12 @@ This will output error messages to `debug.log` for debugging.
 
 ---
 
-## License
-
-ISC
 
 ---
 
 ##  Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request let me learn from you.
 
 ---
 
@@ -555,7 +552,7 @@ If you encounter any issues or have questions:
 1. Check the [Troubleshooting](#troubleshooting) section
 2. Review the MCP Protocol documentation
 3. Open an issue on GitHub
-
+4. You can reach out to me on Linkedln https://www.linkedin.com/in/oladitisodiq/ , whatsapp: +2348102458866 , Gmail:Oladitisodiq@gmail.com
 ---
 
 ##  Resources
